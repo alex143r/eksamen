@@ -1,19 +1,33 @@
 /*standard ting*/
 section {
     max-width: 1200px;
-    margin: auto;
+    margin: 1rem;
 }
+
 
 .sectionwrapper {
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 3rem;
+    background-color: lightblue;
 
+
+}
+
+header {
+    width: 100%;
+    display: inline;
+    position: fixed;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    top: 0;
 }
 
 .col {
     flex-basis: 300px;
     flex-grow: 1;
-    margin-right: 1rem;
+    margin: 1rem;
 }
 
 img {
@@ -42,7 +56,7 @@ h2 {
 #menuknap {
     display: inline-block;
     cursor: pointer;
-    color: white;
+    color: black;
     position: absolute;
     right: .5rem;
     font-size: 2rem;
@@ -74,11 +88,93 @@ h2 {
     margin: 0 1rem;
 }
 
+/*Grundlæggende HTML*/
+
+.col img:hover {
+    transition: .5s ease-in-out;
+    transform: scale(1.02);
+}
+
+.se_knap {
+    width: 18rem;
+    height: 3rem;
+    border-radius: 0.8rem;
+    text-align: center;
+    margin: 1rem;
+    padding: 0.6rem;
+    background-color: lightblue;
+}
+
+/*Grundlæggende UX*/
+.col_lille {
+    flex-basis: 100px;
+    flex-grow: 1;
+    margin: 1rem;
+    justify-content: center;
+}
+
+
+.col_stor {
+    flex-basis: 500px;
+    flex-grow: 1;
+    margin: 1rem;
+    justify-content: center;
+}
+
+.col_stor img {
+    width: 230px;
+    justify-content: center;
+    margin: .6rem;
+
+}
+
+#grundlaeggende_ux .col {
+    flex-basis: 500px;
+}
+
+.col_stor img:hover {
+    transition: .5s ease-in-out;
+    transform: scale(1.02);
+}
+
+/* Animation */
+.col_3 {
+    flex-basis: 1300px;
+    flex-grow: 1;
+    margin: 1rem;
+    justify-content: center;
+}
+
+.col_3 img {
+    width: 386px
+}
+
+.col_3 img:hover {
+    transition: .5s ease-in-out;
+    transform: scale(1.03);
+}
+
+.col_4 {
+    flex-basis: 1300px;
+    flex-grow: 1;
+    margin: 1rem;
+    justify-content: center;
+}
+
+.col_4 img {
+    max-width: 230px;
+    max-height: 150px;
+}
+
+.col_4 img:hover {
+    transition: .5s ease-in-out;
+    transform: scale(1.03);
+}
 
 
 
 /*media queries*/
-@media only screen and (min-width: 700px) {
+@media only screen and (min-width: 806px) {
     header {
         width: 100%;
         display: inline;
@@ -89,12 +185,18 @@ h2 {
         top: 0;
     }
 
+    section {
+        max-width: 1200px;
+        margin: auto;
+    }
+
 
     #menu {
         margin: 0;
         padding: 0;
         top: 0;
         text-align: center;
+        background-color: lightgray;
 
     }
 
