@@ -140,13 +140,14 @@ h2 {
 /* Animation */
 .col_3 {
     flex-basis: 1300px;
-    flex-grow: 1;
+
     margin: 1rem;
+    flex-grow: 1;
     justify-content: center;
 }
 
 .col_3 img {
-    width: 386px
+    max-width: 582px
 }
 
 .col_3 img:hover {
@@ -171,7 +172,21 @@ h2 {
     transform: scale(1.03);
 }
 
+.col_spil {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
 
+.col_spi img {
+    max-width: 230px;
+    max-height: 150px;
+}
+
+.col_spil img:hover {
+    transition: .5s ease-in-out;
+    transform: scale(1.03);
+}
 
 /*media queries*/
 @media only screen and (min-width: 806px) {
