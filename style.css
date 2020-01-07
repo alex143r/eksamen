@@ -310,6 +310,11 @@ body {
     border-radius: 1rem;
 }
 
+/* INDHOLD */
+video {
+    width: 100%;
+}
+
 /* OM */
 #om p {
     margin-top: 2rem;
