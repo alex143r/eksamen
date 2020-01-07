@@ -73,6 +73,24 @@ p {
 
 }
 
+li a {
+    color: black;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: grey;
+}
+
+li a:active {
+    color: black;
+}
+
+li a:visited {
+    color: #5c5c5c;
+}
+
+
 
 
 section li {
