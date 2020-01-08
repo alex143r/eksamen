@@ -240,7 +240,7 @@ body {
 .col_billede {
     display: flex;
     flex-grow: 1;
-    margin: 1rem;
+    margin: .1rem;
 }
 
 .col_stor img {
