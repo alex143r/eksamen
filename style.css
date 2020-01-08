@@ -307,6 +307,17 @@ body {
     transform: scale(1.02);
 }
 
+.col_spil {
+    width: 100%;
+}
+
+embed {
+    width: 100vw;
+    height: 56.25vw;
+    border: 0;
+
+}
+
 .col_4 {
     margin: 1rem;
 
@@ -406,6 +417,13 @@ video {
         margin: 0 2rem;
     }
 
+}
+
+@media only screen and (min-width: 1200px) {
+    embed {
+        max-width: 1200px;
+        max-height: 700px;
+    }
 }
 
 @media only screen and (min-width: 1216px) {
