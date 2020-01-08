@@ -221,7 +221,7 @@ body {
 
 /*Grundlæggende UX*/
 .col_lille {
-    flex-basis: 200px;
+    flex-basis: 500px;
     flex-grow: 1;
     margin: 1rem;
     justify-content: center;
@@ -234,15 +234,26 @@ body {
     flex-basis: 500px;
     flex-grow: 1;
     margin: 1rem;
-    justify-content: center;
+    display: flex;
+}
+
+.col_billede {
+    display: flex;
+    flex-grow: 1;
+    margin: 1rem;
 }
 
 .col_stor img {
+    width: 100%;
+}
+
+/*.col_stor img {
     width: 212px;
     justify-content: center;
     margin: .6rem;
 
 }
+*/
 
 #grundlaeggende_ux .col {
     flex-basis: 500px;
@@ -296,17 +307,14 @@ body {
     transform: scale(1.02);
 }
 
-.col_3 img:hover {
-    transition: .5s ease-in-out;
-    transform: scale(1.03);
-}
-
 .col_4 {
     margin: 1rem;
+
 }
 
 .col_4 img {
     width: 100%;
+
 }
 
 .col_4 img:hover {
