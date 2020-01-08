@@ -173,7 +173,7 @@ body {
     transform-origin: top right;
     position: fixed;
     text-align: right;
-    background: linear-gradient(90deg, rgba(191, 181, 168, 1) 0%, rgba(191, 181, 168, 1) 56%, rgba(166, 149, 128, 1) 100%);
+    background: linear-gradient(90deg, rgba(191, 181, 168, 0) 0%, rgba(184, 172, 157, 0.7035014689469538) 0%, rgba(166, 149, 128, 1) 100%);
     width: 100%;
     top: 1.5rem;
     padding: 0;
@@ -391,7 +391,7 @@ video {
     }
 }
 
-@media only screen and (min-width: 1072px) {
+@media only screen and (min-width: 1095px) {
     .col_eks {
         flex-basis: 480px;
         flex-grow: 1;
