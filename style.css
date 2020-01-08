@@ -309,13 +309,14 @@ body {
 
 .col_spil {
     width: 100%;
+    margin: 0;
 }
 
 embed {
-    width: 100vw;
+    width: 96vw;
     height: 56.25vw;
     border: 0;
-
+    margin: 0;
 }
 
 .col_4 {
